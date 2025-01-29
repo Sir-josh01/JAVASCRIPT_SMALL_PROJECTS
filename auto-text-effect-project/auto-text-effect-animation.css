@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(to right, rgb(10, 109, 190), rgb(245, 119, 105));
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: papyrus;
+  font-size: 2rem;
+  margin: 0;
+}
+

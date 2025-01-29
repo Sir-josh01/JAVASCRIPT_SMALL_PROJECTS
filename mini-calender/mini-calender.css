@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(to right, rgb(15, 114, 235), rgb(100, 20, 0));
+  font-family: cursive;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.calender-container {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+.month-name {
+  background-color: red;
+  color: white;
+  font-size: 25px; 
+  padding: 10px;
+}
+
+.day-name,
+.year {
+  color: grey;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.day-date {
+  font-size: 3rem;
+  padding: 10px;
+  font-weight: bold;
+}
