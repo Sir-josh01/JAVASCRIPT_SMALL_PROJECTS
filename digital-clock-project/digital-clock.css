@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/Images/brain.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  color: white;
+  text-align: center;
+}
+.wrapper h2 {
+  font-size: 2.5em;
+  color: white;
+  letter-spacing: 6px;
+}
+
+.clock {
+  display: flex;
+}
+
+.container {
+  width: 120px;
+  height: 120px;
+  background-color: purple;
+  margin-right: 15px;
+  opacity: .8;
+}
+
+.text {
+  background-color :rgb(51, 5, 94);
+  font-size: .8em;
+  color: white;
+  padding: 8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hours {
+  font-size: 4em;
+  padding: 4px;
+  margin: 10px;  
+}
+.minutes {
+  font-size: 4em;
+  padding: 4px;
+  margin: 10px; 
+}
+.seconds {
+  font-size: 4em;
+  padding: 4px;
+  margin: 10px; 
+}
+
+.time {
+  position: relative;
+}
+.ampm {
+  background-color: green;
+  padding: 3px 13px;
+  border-radius: 5px;
+  font-family: cursive;
+  font-size: 20px;
+  position: absolute;
+  bottom: -12px;
+}

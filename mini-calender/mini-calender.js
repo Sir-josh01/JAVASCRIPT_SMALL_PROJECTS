@@ -14,4 +14,4 @@ dayName.innerHTML = date.toLocaleString('en', {
 })
 
 dayDate.innerHTML = date.getDate();
-year.innerHTML = date.getFullYear()
+year.innerHTML = date.getFullYear();
